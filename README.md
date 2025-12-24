@@ -33,6 +33,7 @@ node-app/
 │   └── test-image.jpg
 | └── test-image.jpg
 ├── package.json
+├── init.sql
 └── README.md
 ````
 
