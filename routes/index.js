@@ -15,7 +15,7 @@ function streamToString(stream) {
 
 /* GET index page */
 router.get('/', function (req, res, next) {
-    res.render('index', {title: 'PhotoGallery', version: "0.1.0"});
+    res.render('index', {title: 'PhotoGallery', version: "0.1.0"})
 });
 
 /* POST new image */
