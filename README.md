@@ -84,28 +84,28 @@ node-app/
             - 400 — если поле image отсутствует
             - 500 — внутренняя ошибка сервера или БД
 
-      4. Получение всей статистики
-          - GET /stats
-              - Возвращает JSON со всей статистикой по проекту
-            ```json
-            {
-              "total_images": 42,
-              "avg_images_per_author": 3.5,
-              "images_last_24h": 7,
-              "top_author": {
-                  "author": "Alice",
-                  "total": 10
-              },
-              "latest_uploads": [
-                   {
-                       "name": "Photo 1",
-                       "path": "abc.jpg",
-                       "author": "Bob",
-                       "created_at": "2025-12-24T12:34:56Z" 
-                   }
-              ]
-            }
-            ```
+4. Получение всей статистики
+    - GET /stats
+        - Возвращает JSON со всей статистикой по проекту
+      ```json
+      {
+        "total_images": 42,
+        "avg_images_per_author": 3.5,
+        "images_last_24h": 7,
+        "top_author": {
+            "author": "Alice",
+            "total": 10
+        },
+        "latest_uploads": [
+             {
+                 "name": "Photo 1",
+                 "path": "abc.jpg",
+                 "author": "Bob",
+                 "created_at": "2025-12-24T12:34:56Z" 
+             }
+        ]
+      }
+      ```
 
 ## Тестирование
 
